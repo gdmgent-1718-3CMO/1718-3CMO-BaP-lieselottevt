@@ -1,11 +1,9 @@
 
 @import "variables";
-@import "bootstrap-hack";
-@import "lightbox";
+@import "helpers/mixin";
+@import "helpers/flex";
 @import "default";
-@import "nav";
+@import "animations";
 @import "custom";
-@import "client-style";
-
-
-/* hier geen CSS schrijven. Enkel en alleen linken naar scss-bestanden */
+@import "navigation";
+@import "footer";

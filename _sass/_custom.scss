@@ -1,63 +1,124 @@
-/* Navigation
----------------------------------------------
-*/
-.navbar a {
-    border: none;
+* {
+  box-sizing: border-box;
 }
-
-/* FOOTER
-----------------------------------------------
-sticked to the bottom with small content pages
-*/
-html {
-    height: 100%;
-  }
-
 body {
-    position: relative;
-    margin: 0;
-    padding-bottom: 6rem;
-    min-height: 100%;
-  }
-
-.bh-absolute-bottom {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  padding: 0;
+  margin: 0;
   left: 0;
-}
-
-footer {
-    background-color: $mycolor-2;
-    color: $color-white;
-    a {
-        color: $color-white;
-        &:hover {
-            
+  right: 0;
+  top: 0;
+  .container {
+    box-sizing: border-box;
+    position: relative;
+    padding: 100px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &.landing {
+      height: 100vh;
+      background-image: url('backgrounds/landscape.png');
+      .title {
+        margin-top: 1em;
+        color: white;
+        width: 100%;
+        font-weight: 400;
+        .bold {
+          font-weight: 700;
         }
+      }
     }
-}
+    &.voorwoord {
+      min-height: 550px;
+      .title {
+        margin-top: -160px;
+        width: 40%;
+        padding: 0 20px;
+      }
+      .text {
+        width: 50%;
+      }
+    }
+    &.logo {
+      background-image: url('backgrounds/logo.png');
+      height: 100vh;
+      .title {
+        color: $mycolor-1;
+        margin-top: 60vh;
+      }
+    }
+    &.typo {
+      background-image: url('backgrounds/typography.png');
+      height: 100vh;
+      .title {
+        color: $mycolor-3;
+      }
+    }
+    &.color {
+      background-image: url('backgrounds/color.png');
+      height: 100vh;
+      .title {
+        color: $color-black;
+        margin-top: 60vh;
 
-/* BACK TO TOP
--------------------------
-*/
-#to-top {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color:$mycolor-3; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  //padding: 15px; /* Some padding */
-  width: 40px;
-  height: 40px;
-  border-radius: 20px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
-  &:hover {
-    background-color:$mycolor-5; 
+      }
+    }
+    &.photo {
+      background-image: url('backgrounds/group.png');
+      height: 100vh;
+      .title {
+        margin-top: 60vh;
+         color: $mycolor-2;
+      }
+    }
+    &.branding {
+      background-image: url('backgrounds/branding.png');
+      height: 100vh;
+      .title {
+        margin-top: 60vh;
+        color: $mycolor-1;
+      }
+    }
+    &.content {
+      .text {
+        width: 25%;
+        margin-left: 5%;
+        .download-link {
+          color: $mycolor-3;
+          display: block;
+          margin-top: 20px;
+          text-decoration: none;
+        }
+      }
+      .group {
+        width: 68%;
+        height: 68%;
+        margin-left: 32%;
+        img {
+          width: 50%;
+          height: 50%;
+          &:nth-child(1) {
+            border-right: 10px solid white;
+          }
+          &:nth-child(2) {
+            border-left: 10px solid white;
+          }
+        }
+        
+      }
+      img {
+        width: 68%;
+        height: 68%;
+        &.small {
+          width: auto;
+          margin: 8px calc(68% - 488px) 0 0;
+          height: 100px;
+        }
+      }
+    }
   }
 }
+
+
+
+

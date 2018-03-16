@@ -1,0 +1,38 @@
+.footer {
+    padding: 20px 50px;
+    background: $mycolor-1;
+ 
+    .copy {
+        color: white;
+        text-align: center
+    }
+    .socials {
+        p {
+            color: white;
+            margin: 3px 0;
+        }
+        .fa-facebook-f {
+            color: white;
+            padding: 7px;
+            border: 1px solid white;
+            border-radius: 100%;
+            width: 30px;
+            height: 30px;
+            margin-bottom: 4px;
+        }
+    }
+    .contact {
+        .row {
+            .fa-phone, .fa-envelope,  .fa-compass {
+                margin: 3px 7px;
+                color: white;
+            }
+            p {
+                color: white;
+                margin: 3px 0;  
+            }
+        }
+       
+    }
+
+}
