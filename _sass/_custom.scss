@@ -31,7 +31,7 @@ body {
     &.voorwoord {
       min-height: 550px;
       .title {
-        margin-top: -160px;
+        margin-top: -262px;
         width: 40%;
         padding: 0 20px;
       }
@@ -55,7 +55,7 @@ body {
       }
     }
     &.color {
-      background-image: url('backgrounds/color.png');
+      background-image: url('backgrounds/test.png');
       height: 100vh;
       .title {
         color: $color-black;
