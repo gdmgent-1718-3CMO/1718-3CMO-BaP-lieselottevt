@@ -17,7 +17,7 @@ body {
     background-repeat: no-repeat;
     &.landing {
       height: 100vh;
-      background-image: url('backgrounds/landscape.png');
+      background-image: url('backgrounds/landscape.jpg');
       .title {
         margin-top: 1em;
         color: white;
@@ -48,14 +48,14 @@ body {
       }
     }
     &.typo {
-      background-image: url('backgrounds/typography.png');
+      background-image: url('backgrounds/typography.jpg');
       height: 100vh;
       .title {
         color: $mycolor-3;
       }
     }
     &.color {
-      background-image: url('backgrounds/test.png');
+      background-image: url('backgrounds/kleur.png');
       height: 100vh;
       .title {
         color: $color-black;
@@ -64,7 +64,7 @@ body {
       }
     }
     &.photo {
-      background-image: url('backgrounds/group.png');
+      background-image: url('backgrounds/group.jpg');
       height: 100vh;
       .title {
         margin-top: 50vh;
@@ -72,7 +72,7 @@ body {
       }
     }
     &.branding {
-      background-image: url('backgrounds/branding.png');
+      background-image: url('backgrounds/branding.jpg');
       height: 100vh;
       .title {
         margin-top: 60vh;
