@@ -28,10 +28,12 @@ body {
         }
       }
     }
+p {letter-spacing: 1px;
+  }
     &.voorwoord {
-      min-height: 550px;
+      min-height: 40px;
       .title {
-        margin-top: -185px;
+        margin-top: -310px;
         width: 40%;
         padding: 0 20px;
       }
